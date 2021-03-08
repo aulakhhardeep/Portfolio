@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+*
+{
+       margin:0;
+       padding:0;
+       box-sizing: border-box ;
+}
+
+header{
+    padding: 20px 35px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-image: url("../images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+background-position: 80%;
+    }
+/* Applies to the h1 element of header*/
+header h1{
+font-weight: bold;
+font-size:36px;
+margin:0;
+
+}
+/*applies to a element of header*/
+header a{
+       color:aqua;
+       text-decoration: none;
+}
+
+/*Applies to naviagtion bar which is inside header*/
+
+header nav{
+margin:7px 0;
+
+}
+
+
+header nav ul 
+{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
+}
+
+
+header nav ul li a {
+       padding: 10px 15px;
+       font-weight: lighter;
+       font-size: 1.55vw;
+       text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+       
+     }

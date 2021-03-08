@@ -9,6 +9,7 @@ body{
        box-sizing: border-box ;
 }
 
+/* Applies to header*/
 header{
     padding: 20px 35px;
     display:flex;
@@ -29,7 +30,7 @@ margin:0;
 }
 /*applies to a element of header*/
 header a{
-       color:aqua;
+       color:lightblue;
        text-decoration: none;
 }
 
@@ -58,3 +59,112 @@ header nav ul li a {
        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
        
      }
+
+     footer{
+         
+        margin: 50px auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        
+ }
+ footer ul 
+{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+       list-style: none;
+       text-decoration: underline;
+       font-size: 1.55vw;
+       color:darkcyan;
+       
+}
+
+
+footer ul li a {
+       padding: 10px 38px;
+       font-weight: lighter;
+       color:darkcyan;
+       
+       
+     }
+ 
+ 
+ .intro{
+   padding-left:100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;  
+    margin:0 auto;
+    
+}
+ .intro p{
+    line-height: 1.7;
+    color:rgba(0, 0, 0, 0.5);
+    width:100%;
+    font: size 20px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.intro h2{
+    color:grey;
+    font-size: 46px;
+    text-align: right;  
+    
+}
+
+.flex-row1
+{      
+       margin-top:10px;
+       display: flex;
+       border-right: 5px solid green;
+       height:200px;
+       width:15%;
+       margin-right:0px;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+
+    .flex-row
+{      
+       margin-top:10px;
+       display: flex;
+       border-right: 5px solid green;
+       height:700x;
+       width:15%;
+       margin-right:0px;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+
+
+.flex-para
+{      
+       margin-top:10px;
+       display: flex;
+       flex-wrap: wrap;
+       width:80%;
+       justify-content: space-between;
+       padding-right:100px;
+      
+
+       
+    }
+
+ .responsive img
+ {
+     width:100%;
+ }
+
+
+  .gallery img
+ {
+    width:20%;
+ }
+ 

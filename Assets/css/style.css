@@ -60,39 +60,7 @@ header nav ul li a {
        
      }
 
-     footer{
-         
-        margin: 50px auto;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        
- }
- footer ul 
-{
-       display:flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       align-items: center;
-       list-style: none;
-       text-decoration: underline;
-       font-size: 1.55vw;
-       color:darkcyan;
-       
-}
 
-
-footer ul li a {
-       padding: 10px 38px;
-       font-weight: lighter;
-       color:darkcyan;
-       
-       
-     }
- 
- 
  .intro{
    padding-left:100px;
     width: 100%;
@@ -116,6 +84,7 @@ footer ul li a {
     color:grey;
     font-size: 46px;
     text-align: right;  
+    
     
 }
 
@@ -152,8 +121,6 @@ footer ul li a {
        width:80%;
        justify-content: space-between;
        padding-right:100px;
-      
-
        
     }
 
@@ -161,9 +128,81 @@ footer ul li a {
  {
      width:100%;
  }
-
- .gallery img
+ .responsive div div h4 {
+    display: inline-flex;
+    
+  }
+  
+  .responsive a{
+    
+    text-align: center;
+    text-decoration: none;
+    
+  }
+ .projects
  {
-    width:40%;
+    padding-left:282px;
+    
  }
- 
+ .gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 65px;
+    border-left: 5px solid green;
+    align-content: space-around;
+    flex-direction: row;
+    max-height: 100vh;
+  }
+  
+  .gallery div div h4 {
+    display: inline-flex;
+    
+    
+  }
+  
+  .gallery a{
+    
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  
+  .gallery img {
+   
+    margin: 2px;
+    max-width: 21.7vw;
+  }
+
+footer{
+    
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+footer ul 
+{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   text-decoration: underline;
+   font-size: 1.55vw;
+   color:darkcyan;
+   
+}
+
+
+footer ul li a {
+   padding: 10px 60px;
+   font-weight: lighter;
+   color:darkcyan;
+   
+   
+ }
+
